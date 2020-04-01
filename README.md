@@ -14,4 +14,7 @@ You will also see any lint errors in the console.
 
 you can fork the app and edit it on your own 
 
+contact me if you need any help 
+Email ahmedclubust@gmail.com
+
 ### `HAPPY HACKING`
