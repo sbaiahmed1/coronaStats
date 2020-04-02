@@ -82,7 +82,7 @@ function App() {
             <div className="uk-column-1-3 uk-column-divider">
                 <div>
                     <div className="uk-animation-toggle">
-                        <div style={{backgroundColor: '#FFEE58', borderRadius: 32, width: '95%', marginLeft: '3%'}}
+                        <div style={{backgroundColor: '#FFEE58', borderRadius: 32, width: '100%', marginLeft: '3%'}}
                              className="uk-animation-fade uk-card uk-card-default uk-card-body">
                             <h3 align={'center'} className="uk-card-title">All Cases</h3>
                             <h4 align={'center'}>{allCases.confirmed}</h4>
@@ -91,7 +91,7 @@ function App() {
                 </div>
                 <div>
                     <div className="uk-animation-toggle">
-                        <div style={{backgroundColor: '#66BB6A', borderRadius: 32, width: '95%'}}
+                        <div style={{backgroundColor: '#66BB6A', borderRadius: 32, width: '100%'}}
                              className="uk-animation-fade uk-card uk-card-default uk-card-body">
                             <h3 align={'center'} className="uk-card-title">Recovered</h3>
                             <h4 align={'center'}>{allCases.recovered}</h4>
@@ -100,7 +100,7 @@ function App() {
                 </div>
                 <div>
                     <div className="uk-animation-toggle">
-                        <div style={{backgroundColor: '#ef5350', borderRadius: 32, width: '95%'}}
+                        <div style={{backgroundColor: '#ef5350', borderRadius: 32, width: '100%'}}
                              className="uk-animation-fade uk-card uk-card-default uk-card-body">
                             <h3 align={'center'} className="uk-card-title">Deaths</h3>
                             <h4 align={'center'}>{allCases.deaths}</h4>
@@ -123,7 +123,7 @@ function App() {
                 <div className="uk-column-1-3 uk-column-divider">
                     <div>
                         <div className="uk-animation-toggle">
-                            <div style={{backgroundColor: '#FFEE58', borderRadius: 32, width: '95%', marginLeft: '3%'}}
+                            <div style={{backgroundColor: '#FFEE58', borderRadius: 32, width: '100%', marginLeft: '3%'}}
                                  className="uk-animation-fade uk-card uk-card-default uk-card-body">
                                 <h3 align={'center'} className="uk-card-title">All Cases</h3>
                                 <h4 align={'center'}>{countryCases.confirmed}</h4>
@@ -132,7 +132,7 @@ function App() {
                     </div>
                     <div>
                         <div className="uk-animation-toggle">
-                            <div style={{backgroundColor: '#66BB6A', borderRadius: 32, width: '95%'}}
+                            <div style={{backgroundColor: '#66BB6A', borderRadius: 32, width: '100%'}}
                                  className="uk-animation-fade uk-card uk-card-default uk-card-body">
                                 <h3 align={'center'} className="uk-card-title">Recovered</h3>
                                 <h4 align={'center'}>{countryCases.recovered}</h4>
@@ -141,7 +141,7 @@ function App() {
                     </div>
                     <div>
                         <div className="uk-animation-toggle">
-                            <div style={{backgroundColor: '#ef5350', borderRadius: 32, width: '95%'}}
+                            <div style={{backgroundColor: '#ef5350', borderRadius: 32, width: '100%'}}
                                  className="uk-animation-fade uk-card uk-card-default uk-card-body">
                                 <h3 align={'center'} className="uk-card-title">Deaths</h3>
                                 <h4 align={'center'}>{countryCases.deaths}</h4>
